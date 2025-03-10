@@ -1,0 +1,16 @@
+venv/
+# Ignore __pycache__ in the entire project
+**/__pycache__/
+
+# Ignore __pycache__ specifically in app/migration, app/models, and app/routes
+app/__pycache__/
+app/migrations/__pycache__/
+app/models/__pycache__/
+app/routes/__pycache__/
+
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+config.bat
+node_modules
